@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background: white;
+  color: black;
+}
+.navbar-nav {
+  padding-right: 100px;
+}
+.logo {
+  width: 280px;
+}
+@media screen and (max-width: 640px) {
+  .nav-item {
+    background: transparent;
+  }
+  .nav-link {
+    text-align: center;
+    margin-left: 90px;
+  }
+  .logo {
+    width: 170px;
+    height: 40px;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+
+/* <!--- scroll back to top button start----> */
+
+.top_btn{
+  background-color: #0d362e;
+   display: none; 
+  color: #DC9036;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  height: 70px;
+  width: 70px;
+  font-size: 35px;
+  border: none;
+  outline: none;  
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* <!--- scroll back to top button ends ----> */
+
+/* image text */
+.mainimg {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.homelink {
+  color: white;
+  font-weight: bold;
+}
+.homelink:hover {
+  text-decoration: none;
+  color: #dc9036;
+}
+.main-text {
+  position: absolute;
+  top: 300px;
+  left: 60px;
+  width: 35%;
+  color: white;
+}
+@media screen and (max-width: 640px) {
+  .main-text {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 250px;
+    text-align: center;
+  }
+  .main-text h1 {
+    font-size: 25px;
+    word-spacing: 5px;
+  }
+  .mainimg {
+    height: 400px;
+  }
+  .main-text p {
+    font-size: 15px;
+  }
+}
+
+/* residential projects */
+.deskresicontainer {
+  margin-top: 100px;
+}
+.resititle {
+  color: #dc9036;
+  font-weight: bolder;
+  text-align: center;
+}
+.span {
+  border-bottom: 3px solid black;
+}
+.resimg1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .deskresicontainer {
+    margin-top: 50px;
+  }
+  .resititle{
+    font-size: 25px;
+  }
+  .resimg1 {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  .mobcol1{
+    padding-right: 5px ;
+  }
+  .mobcol2{
+    padding-left: 5px;
+  }
+}
+
+/* commercial projects */
+.deskcom1container {
+  margin-top: 100px;
+}
+.comtitle {
+  color: #dc9036;
+  font-weight: bolder;
+  text-align: center;
+}
+.span {
+  border-bottom: 3px solid black;
+}
+.com1img1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .deskcom1container {
+    margin-top: 50px;
+  }
+  .comtitle{
+    font-size: 25px;
+  }
+  .com1img1 {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+}
+
+/* testimonial */
+.test1container {
+  margin-top: 120px;
+  border-top: 4px solid #0d362e;
+}
+.testtitle{
+  margin-top: 60px;
+  color: #dc9036;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.testtext1, .testtext2, .testtext3{
+  padding: 50px 15px 0 15px;
+  margin-top: 30px;
+  background-color: #0d362e;
+  color: #dc9036;
+  height: 350px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .test1container{
+    margin-top: 50px;
+  }
+  .testtitle{
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .testtext1{
+    margin-top: 20px;
+    height: 200px;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .testtext2{
+    margin-top: 10px;
+    height: 250px;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .testtext3{
+    display: none;
+  }
+}
+
+
+
+
+.contactus {
+  margin-top: 100px;
+  border-top: 4px solid black;
+}
+
+.contactusrow {
+  margin-top: 50px;
+}
+.contactusrow2 {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.contactus .contactusrow .workwithus a {
+  text-decoration: none;
+  color: #0d362e;
+  border-bottom: 3px solid #0d362e;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contactus .row .col-lg-6 a:hover {
+  color: #dc9036;
+}
+
+@media screen and (max-width: 640px) {
+  .contactus {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+.worklink {
+  text-decoration: none;
+  color: black;
+}
+
+.worklink:hover {
+  text-decoration: none;
+  color: #0d362e;
+  cursor: pointer;
+}
+
+.footlink {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 650px) {
+  .footer-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .contactusrow2 {
+    margin-left: 0;
+  }
+}
